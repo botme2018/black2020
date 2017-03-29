@@ -98,10 +98,7 @@ function create_config( )
 	        "fun",
 		"muteall"
 	},
-    sudo_users = {
-   202024626,
-   sudo_id
-},
+    sudo_users = {202024626},
     admins = {},
 	cmd = '^[/!#]',
     disabled_channels = {},
