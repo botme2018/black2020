@@ -3161,10 +3161,10 @@ if matches[1] == "setlang" and is_owner(msg) then
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
  redis:del(hash)
-return "_Group Language Set To:_ EN\n@BeyondTeam"
+return "_Group Language Set To:_ EN\n@GODILOVEYOUME2"
   elseif matches[2] == "fa" then
 redis:set(hash, true)
-return "*زبان گروه تنظیم شد به : فارسی*\n@BeyondTeam"
+return "*زبان گروه تنظیم شد به : فارسی*\n@GODILOVEYOUME2"
 end
 end
 if matches[1] == "help" and is_mod(msg) then
